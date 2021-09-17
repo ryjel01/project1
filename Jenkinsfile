@@ -1,7 +1,7 @@
 pipeline { 
   environment { 
     registry = 'ryjel01/project1' 
-    registryCredential = 'VBDocker' 
+    registryCredential = 'MyDockerHubID' 
     dockerImage = '' 
   } 
   agent any 
